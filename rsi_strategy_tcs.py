@@ -81,3 +81,4 @@ print(f"Total Return: {(strategy_returns + 1).prod() - 1:.2%}")
 print(f"Sharpe Ratio: {qs.stats.sharpe(strategy_returns):.2f}")
 print(f"Max Drawdown: {qs.stats.max_drawdown(strategy_returns):.2%}")
 print(f"Win Rate: {qs.stats.win_rate(strategy_returns):.2%}")
+
